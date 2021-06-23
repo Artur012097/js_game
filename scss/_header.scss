@@ -1,0 +1,53 @@
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 51px;
+    background-color: $white;
+    z-index: 999;
+
+    &__menu {
+        display: flex;
+        align-items: center;
+    }
+
+    &__logo {
+        margin-right: 13.5px;
+    }
+
+    &__sign {
+        display: flex;
+        align-items: center;
+    }
+
+    &__button {
+        &_signIn {
+            font-family: $fontSfui;
+            color: $gray;
+            margin-left: 50px;
+        }
+
+        &_signUp {
+            width: 99px;
+            height: 48px;
+            margin-left: 40px;
+        }
+    }
+}
+
+.navbar {
+
+    &__list {
+        display: flex;
+
+        a {
+            margin-left: 48px;
+            font-family: $fontSfui;
+            color: $gray;
+        }
+    }
+}

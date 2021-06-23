@@ -1,0 +1,21 @@
+.footer {
+    padding: 90px 0;
+    border-top: 1px solid $gray-lighter;
+
+    &__content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__list {
+        display: flex;
+    }
+
+    &__link {
+        font-family: $fontSfui;
+        font-size: 12px;
+        color: $gray;
+        margin-right: 48px;
+    }
+}

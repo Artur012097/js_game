@@ -1,0 +1,40 @@
+.feedback {
+    margin-bottom: 163px;
+    
+    &__content {
+        display: flex;
+        margin-left: 265px;
+        margin-top: 46px;
+        position: relative;
+    }
+
+    &__slider {
+        width: 800px;
+    }
+
+    &__item {
+        margin-left: 52px;
+
+        p {
+            font-family: $fontSfui;
+            font-weight: 300;
+            font-size: 32px;
+            line-height: 52px;
+            margin-bottom: 59px;
+        }
+    }
+
+    &__buttons {
+        position: absolute;
+        right: 0;
+        bottom: -18px;
+        background-color: $white;
+    }
+
+    &__author {
+        span {
+            font-family: $fontSfui;
+            font-size: 16px;
+        }
+    }
+}

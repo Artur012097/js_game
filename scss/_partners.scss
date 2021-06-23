@@ -1,0 +1,14 @@
+.partners {
+    padding-bottom: 106px;
+
+    &__title {
+        margin-bottom: 56px;
+    }
+
+    &__logoes {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

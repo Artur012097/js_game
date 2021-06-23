@@ -1,0 +1,46 @@
+.build {
+    margin-bottom: 128px;
+    
+    &__title {
+        margin-bottom: 40px;
+    }
+
+    &__content {
+        display: flex;
+    }
+
+    &__description {
+        margin-left: 155px;
+    }
+
+    &-item {
+        display: flex;
+        margin-bottom: 48px;
+
+        &__icon {
+            margin-right: 38px;
+        }
+
+        &__title {
+            font-family: $NewYork;
+           font-size: 16px;
+            line-height: 26px;
+            margin-bottom: 8px;
+        }
+
+        &__description {
+            font-family: $fontSfui;
+            font-size: 16px;
+            line-height: 26px;
+        }
+    }
+
+    &__button {
+        margin-top: 24px;
+
+        a {
+            width: 204px;
+            margin: 0 auto;
+        }
+    }
+}

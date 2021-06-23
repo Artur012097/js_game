@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('../fonts/sfui/SFUIText-Regular.ttf');
+    src: local('../fonts/sfui/SF UI Display Regular'), local('../fonts/sfui/SFUIDisplay-Regular'),
+        url('../fonts/sfui/?#iefix') format('embedded-opentype'),
+        url('../fonts/sfui/SFUIDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/sfui/SFUIDisplay-Regular.woff') format('woff'),
+        url('../fonts/sfui/SFUIDisplay-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NewYorkExtraLargeBold';
+    src: url('../fonts/NewYorkExtraLargeBold.otf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+$fontSfui: 'SF UI Display', sans-serif;
+$NewYork: 'NewYorkExtraLargeBold', sans-serif;

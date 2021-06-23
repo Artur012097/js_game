@@ -1,0 +1,37 @@
+.rooms {
+    margin-bottom: 124px;
+
+    &__header {
+        display: flex;
+        align-items: flex-end;
+        margin-bottom: 40px;
+    }
+
+    &__title {
+        padding-left: 345px;
+    }
+
+    &__buttons { 
+        display: flex;
+        margin-left: 142px;
+    }
+
+    &__slider {
+        width: 100vw;
+        height: 433px;
+        position: relative;
+
+        &-wrapper {
+            width: 100vw;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+
+            .slick-slide {
+                width: 305px;
+                margin-right: 40px;
+            }
+        }
+    }
+}

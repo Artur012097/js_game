@@ -1,0 +1,35 @@
+.hero {
+    margin-bottom: 112px;
+    
+    &__title {
+        font-family: $NewYork;
+        font-weight: 700;
+        font-size: 120px;
+        line-height: 120px;
+        margin-top: 52px;
+        margin-bottom: 47px;
+
+        span {
+            color: $orange;
+        }
+    }
+
+    &__content {
+        display: flex;
+    }
+
+    &__description {
+        padding-right: 55px;
+
+        p {
+            font-family: $fontSfui;
+            font-size: 16px;
+            line-height: 25px;
+        }
+
+        a {
+            width: 179px;
+            margin-top: 48px;
+        }
+    }
+}
