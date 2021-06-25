@@ -13,59 +13,68 @@
     <!-- header -->
 
     <div class="header">
-        <div class="header__menu">
+        <div class="header__logo-mobile">
+            <img src="./img/logo.svg" alt="Archmove">
+        </div>
+        <div class="header__wrapper" id="mobileMenu">
             <div class="header__logo">
                 <img src="./img/logo.svg" alt="Archmove">
             </div>
-            <nav class="navbar">
-                <ul class="navbar__list">
-                    <li class="navbar__item">
-                        <a href="#" 
-                        class="navbar__link"
-                        >
-                            Design Gallery
-                        </a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="#" 
-                        class="navbar__link"
-                        >
-                            List of Architect
-                        </a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="#" 
-                        class="navbar__link"
-                        >
-                            Articles
-                        </a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="#" 
-                        class="navbar__link"
-                        >
-                            How it Works
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+            <div class="header__menu">
+                <nav class="navbar">
+                    <ul class="navbar__list">
+                        <li class="navbar__item">
+                            <a href="#" 
+                            class="navbar__link"
+                            >
+                                Design Gallery
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#" 
+                            class="navbar__link"
+                            >
+                                List of Architect
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#" 
+                            class="navbar__link"
+                            >
+                                Articles
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#" 
+                            class="navbar__link"
+                            >
+                                How it Works
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__sign">
+                <div class="header__search">
+                    <button class="header__button_search">
+                        <img src="./img/search-icon.svg" alt="Search">
+                    </button>
+                </div>
+                <div class="header__signIn">
+                    <button class="header__button_signIn">
+                        Sign In
+                    </button>
+                </div>
+                <div class="header__signUp">
+                    <button class="header__button_signUp btn-orange">
+                        Sign Up
+                    </button>
+                </div>
+            </div>
         </div>
-        <div class="header__sign">
-            <div class="header__search">
-                <button class="header__button_search">
-                    <img src="./img/search-icon.svg" alt="Search">
-                </button>
-            </div>
-            <div class="header__signIn">
-                <button class="header__button_signIn">
-                    Sign In
-                </button>
-            </div>
-            <div class="header__signUp">
-                <button class="header__button_signUp btn-orange">
-                    Sign Up
-                </button>
-            </div>
+
+        <div class="header__burger" id="burger">
+            <span></span>
         </div>
     </div>
 
@@ -152,10 +161,10 @@
         <!-- main build content -->
         <section class="section build">
             <div class="container">
-                <h1 class="build__title item-title">
+                <h2 class="build__title item-title">
                     Build Your <br>
                     Dream House
-                </h1>
+                </h2>
                 <div class="build__content">
                     <div class="build__banner">
                         <img src="./img/build/build-banner.svg" alt="Banner">
@@ -384,14 +393,14 @@
     </div>
     
     <script 
-    src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-    crossorigin="anonymous">
+    type="text/javascript"
+    src="./script/jquery.js">
     </script>
     <script 
     type="text/javascript" 
     src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js">
     </script>
+    <script src="./slick/slick.min.js"></script>
     <script src="./script/main.js"></script>
 </body>
 </html>

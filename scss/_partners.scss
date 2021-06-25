@@ -8,7 +8,23 @@
     &__logoes {
         width: 100%;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
+    }
+}
+
+@media (max-width: 992px) {
+    .partners {
+        padding-bottom: 24px; 
+    }
+}
+
+@media (max-width: 768px) {
+    .partners {
+
+        &__title {
+            margin-bottom: 24px;
+        }   
     }
 }

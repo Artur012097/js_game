@@ -19,3 +19,22 @@
         margin-right: 48px;
     }
 }
+
+@media (max-width: 768px) {
+    .footer {
+
+        &__content {
+            align-items: center;
+        }
+
+        &__list {
+            flex-direction: column;
+        }
+
+        &__link {
+            display: block;
+            margin: 16px 0;
+            padding: 0;
+        }
+    }
+}

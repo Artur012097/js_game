@@ -111,3 +111,33 @@ button {
         -webkit-mask-position: center;
     }
 }
+
+@media (max-width: 1130px) {
+    .container {
+       padding: 0 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .main {
+        padding-top: 64px;
+    }
+
+    .item-title {
+        font-size: 24px;
+        line-height: 36px;
+    }
+}
+
+@media (max-width: 992px) {
+    
+    .item-title {
+        font-size: 18px;
+        line-height: 37px;
+        text-align: center;
+
+        br {
+            display: none;
+        }
+    }
+}

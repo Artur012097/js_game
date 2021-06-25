@@ -10,12 +10,7 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'NewYorkExtraLargeBold';
-    src: url('../fonts/NewYorkExtraLargeBold.otf');
-    font-weight: 700;
-    font-style: normal;
-}
+@import url('http://fonts.cdnfonts.com/css/new-york-extra-large');
 
 $fontSfui: 'SF UI Display', sans-serif;
-$NewYork: 'NewYorkExtraLargeBold', sans-serif;
+$NewYork: 'New York Extra Large', sans-serif;
